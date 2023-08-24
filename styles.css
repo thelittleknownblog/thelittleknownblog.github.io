@@ -1,0 +1,186 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+}
+
+.cover-image {
+    max-height: 40vh; /* Maximum 40% vertical height */
+    overflow: hidden;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.page-icon-container {
+    text-align: left;
+    /* background-color: #f0f0f0; */
+    padding: 15px 0; /* Adjust as needed */
+    margin: 0 20%;
+}
+
+.page-icon {
+    font-size: 48px;
+    padding: 10px;
+}
+
+.content {
+    text-align: left;
+    /* background-color: #f0f0f0; */
+    padding: 50px 0;
+    margin: 0 29%; /* Center the content with 20% margin on each side */
+}
+
+.blog-name {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 0; /* No margin on the left within content area */
+}
+
+/* Existing CSS styles from previous code snippets */
+
+.page-cover-image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    max-height: 30vh;
+    
+}
+
+.page-header-icon {
+    font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+    margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+
+/* Existing styles */
+.navigation {
+    margin-top: 2rem; /* Adjust margin for spacing */
+    text-align: left; /* Align the navigation to the left */
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox for better alignment control */
+}
+
+.navigation li {
+    margin-right: 2rem; /* Adjust margin for spacing between menu items */
+}
+
+.navigation li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgba(55, 53, 47, 0.7);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #000;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.article {
+    width: calc(50% - 15px); /* Two articles per row with spacing */
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    border: 1px solid #ddd; /* Added default border */
+}
+
+.article:hover {
+    background-color: #f5f5f5; /* Slightly darker background on hover */
+    border-color: #000; /* Black border color on hover */
+}
+
+.article-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.article-title {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.tag {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 3px 8px;
+    font-size: 11px; /* Adjusted font size */
+    color: white;
+    border-radius: 3px;
+    background-color: #3498db;
+    display: inline-block;
+}
+
+.tag.tag1 { background-color: #e74c3c; }
+.tag.tag2 { background-color: #3498db; }
+.tag.tag3 { background-color: #2ecc71; }
+.tag.tag4 { background-color: #ff66b2; }
+
+/* Add more classes for more tags */
+/* Add more classes for more tags */
+
+.article a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.tag:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
