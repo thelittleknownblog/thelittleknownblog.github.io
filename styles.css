@@ -179,6 +179,12 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); /* Display one article per row */
+    }
+}
+
 
 
 
