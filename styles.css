@@ -7,7 +7,7 @@ body, h1, p {
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
     background-color: #f8f8f8;
 }
 
@@ -103,6 +103,7 @@ body {
     font-size: 1.2rem;
     text-transform: lowercase;
     transition: color 0.3s;
+    text-decoration: underline;
 }
 
 .navigation a:hover {
@@ -159,6 +160,7 @@ body {
     border-radius: 3px;
     background-color: #3498db;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .tag.tag1 { background-color: #e74c3c; }
@@ -181,9 +183,28 @@ body {
 
 @media (max-width: 768px) {
     .gallery {
-        grid-template-columns: repeat(1, 1fr); /* Display one article per row */
+        display: block;
+        margin: 10px; /* Adjust margin for spacing between articles on smaller screens */
+    }
+    .article {
+        width: calc(100% - 20px); /* Adjust the width and margin for better spacing */
+        margin: 10px; /* Adjust margin for spacing between articles on smaller screens */
+    }
+    .article-title {
+        font-size: 18px; /* Increase the font size for better readability */
+        padding: 15px; /* Increase padding for better spacing within articles */
+    }
+    .tags {
+        padding: 15px; /* Increase padding for better spacing within articles */
+    }
+    .tag {
+        font-size: 14px; /* Increase font size for better visibility */
+    }
+    .content {
+        margin: 0 5%; /* Remove margin for screens with a maximum width of 768px */
     }
 }
+
 
 
 
